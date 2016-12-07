@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>715</width>
-    <height>478</height>
+    <width>575</width>
+    <height>420</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,8 +17,8 @@
    <widget class="QPushButton" name="loadButton">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>110</y>
+      <x>490</x>
+      <y>0</y>
       <width>75</width>
       <height>23</height>
      </rect>
@@ -30,8 +30,8 @@
    <widget class="QPushButton" name="saveButton">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>80</y>
+      <x>490</x>
+      <y>30</y>
       <width>75</width>
       <height>23</height>
      </rect>
@@ -43,27 +43,14 @@
    <widget class="QLabel" name="picLabel">
     <property name="geometry">
      <rect>
-      <x>110</x>
-      <y>20</y>
-      <width>551</width>
-      <height>401</height>
+      <x>20</x>
+      <y>40</y>
+      <width>631</width>
+      <height>541</height>
      </rect>
     </property>
     <property name="text">
      <string>TextLabel</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="chooseButton">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>40</y>
-      <width>75</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>选择路径</string>
     </property>
    </widget>
   </widget>
@@ -72,7 +59,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>715</width>
+     <width>575</width>
      <height>23</height>
     </rect>
    </property>

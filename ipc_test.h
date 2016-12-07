@@ -7,8 +7,10 @@
 #include<QBuffer>
 #include<QDebug>
 #include<QDateTime>
+#include <QTimer>
 #include "ui_ipc_test.h"
-
+#include <atlstr.h>
+//#include "global.h"
 //class QSharedMemory;
 
 class IPC_test : public QMainWindow
@@ -23,12 +25,24 @@ private:
 	Ui::IPC_testClass ui;
 	QSharedMemory *sharedMemory;
 	QString filename;
+	CString fileName;
 	double byets;
 	QString showText;
+	HANDLE hServerWritten;
+	HANDLE hclintWritten;
+	QTimer * timerClient;
+	QTimer * timerServer;
+	QTime msTime;
+	int timeSinStart;
+	int time_Diff;
+
 public slots:
-	void chooseFile();
+	//void chooseFile();
 	void loadFromFile();
 	void loadFromMemory();
+	void timerUpdateClient();
+	void timerUpdateServer();
+	void initialize();
 };
 
 #endif // IPC_TEST_H

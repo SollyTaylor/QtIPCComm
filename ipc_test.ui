@@ -7,46 +7,20 @@
     <x>0</x>
     <y>0</y>
     <width>575</width>
-    <height>420</height>
+    <height>577</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>IPC_test</string>
   </property>
   <widget class="QWidget" name="centralWidget">
-   <widget class="QPushButton" name="loadButton">
-    <property name="geometry">
-     <rect>
-      <x>490</x>
-      <y>0</y>
-      <width>75</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>从内存读取</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="saveButton">
-    <property name="geometry">
-     <rect>
-      <x>490</x>
-      <y>30</y>
-      <width>75</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>保存到内存</string>
-    </property>
-   </widget>
    <widget class="QLabel" name="picLabel">
     <property name="geometry">
      <rect>
-      <x>20</x>
+      <x>70</x>
       <y>40</y>
-      <width>631</width>
-      <height>541</height>
+      <width>411</width>
+      <height>421</height>
      </rect>
     </property>
     <property name="text">
